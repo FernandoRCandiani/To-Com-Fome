@@ -63,50 +63,56 @@
 
           <div class="row pt-5 d-flex justify-content-center">
             <div class="col-5 border-end">
-              <p class="h1 m-5">Doação em dinheiro</p>
+              <form action="">
+                <input type="hidden" value="dinheiro">
+                <p class="h1 m-5">Doação em dinheiro</p>
 
-              <div class="col-6 d-grid mx-auto ps-0 mb-3 input-group-lg">
-                <label for="inputDoado" class="text-start ms-4">Digite o valor $ a ser doado</label>
-                <input type="number" id="inputDoado" class="form-control bg-bd-campo-primario corCinza rounded-5 mt-1" aria-labelledby="doado" placeholder="R$">
-              </div>
+                <div class="col-6 d-grid mx-auto ps-0 mb-3 input-group-lg">
+                  <label for="inputDoado" class="text-start ms-4">Digite o valor $ a ser doado</label>
+                  <input type="number" id="inputDoado" class="form-control bg-bd-campo-primario corCinza rounded-5 mt-1" aria-labelledby="doado" placeholder="R$">
+                </div>
 
-              <div class="d-grid gap-2 col-2 mx-auto">
-                <button type="button" class="btn btn-cinza mt-5 mb-5 rounded-5 btn-lg" data-bs-toggle="button">Doe</button>
-              </div>
+                <div class="d-grid gap-2 col-2 mx-auto">
+                  <button type="submit" class="btn btn-cinza mt-5 mb-5 rounded-5 btn-lg" data-bs-toggle="button">Doe</button>
+                </div>
+              </form>
             </div>
 
             <div class="col-5">
-              <p class="h1 m-5">Doação em alimento</p>
+              <form action="">
+                <input type="hidden" value="alimento">
+                <p class="h1 m-5">Doação em alimento</p>
 
-              <div class="col-6 d-grid mx-auto ps-0 mb-3 input-group-lg">
-                <label for="inputAlimento" class="text-start ms-4">Digite a quantidade em KG</label>
-                <input type="text" id="inputAlimento" class="form-control bg-bd-campo-primario corCinza rounded-5 mt-1" aria-labelledby="alimento" placeholder="Kg">
-              </div>
-
-
-              <div class="col-5 text-start mx-auto">
-                <div class="row d-inline-flex">
-
-                  <div class="form-check mb-1">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="naoPerecivel">
-                    <label class="form-check-label" for="naoPerecivel">
-                      Alimento não perecível
-                    </label>
-                  </div>
-
-                  <div class="form-check m-0">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="perecivel">
-                    <label class="form-check-label" for="perecivel">
-                      Alimento perecível
-                    </label>
-                  </div>
-
+                <div class="col-6 d-grid mx-auto ps-0 mb-3 input-group-lg">
+                  <label for="inputAlimento" class="text-start ms-4">Digite a quantidade em KG</label>
+                  <input type="text" id="inputAlimento" class="form-control bg-bd-campo-primario corCinza rounded-5 mt-1" aria-labelledby="alimento" placeholder="Kg">
                 </div>
-              </div>
 
-              <div class="d-grid gap-2 col-2 mx-auto">
-                <button type="button" class="btn btn-cinza mt-5 mb-5 rounded-5 btn-lg" data-bs-toggle="button">Doe</button>
-              </div>
+
+                <div class="col-5 text-start mx-auto">
+                  <div class="row d-inline-flex">
+
+                    <div class="form-check mb-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="naoPerecivel">
+                      <label class="form-check-label" for="naoPerecivel">
+                        Alimento não perecível
+                      </label>
+                    </div>
+
+                    <div class="form-check m-0">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="perecivel">
+                      <label class="form-check-label" for="perecivel">
+                        Alimento perecível
+                      </label>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="d-grid gap-2 col-2 mx-auto">
+                  <button type="submit" class="btn btn-cinza mt-5 mb-5 rounded-5 btn-lg" data-bs-toggle="button">Doe</button>
+                </div>
+              </form>
             </div>
           </div>
 

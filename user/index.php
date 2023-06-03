@@ -101,48 +101,51 @@
             </div>
 
             <div class="text-start">
-              <div class="col-5 d-flex justify-content-between">
-                <h3 class="ms-5 me-5 mb-0 fs-5 p-3 d-inline-flex">Publique uma notícia</h3>
 
-                <div class="d-flex justify-content-center align-items-center gap-1 d-inline-flex">
-                  <button type="button" class="btn btn-cinza corBranco">Enviar
-                    <img src="../img/Enviar.webp" alt="icone adicionar imagem">
-                  </button>
-                </div>
-              </div>
+              <form action="">
+                <div class="col-5 d-flex justify-content-between">
+                  <h3 class="ms-5 me-5 mb-0 fs-5 p-3 d-inline-flex">Publique uma notícia</h3>
 
-              <div class="row mx-auto ps-5">
-                <div class="col-5 p-0 mb-3">
-                  <textarea class="form-control bg-bd-campo-primario corCinza rounded-4 mt-1 p-3" name="mensagem" id="mensagem" rows="5" placeholder="Mensagem:"></textarea>
-                </div>
-
-                <div class="col-4 text-start d-flex align-items-center ms-4">
-                  <div class="row d-inline-flex gap-1 ">
-
-                    <div class="form-check pe-0">
-                      <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="atencao">
-                      <label class="form-check-label border-vermelho ps-1" for="atencao">
-                        Atenção
-                      </label>
-                    </div>
-
-                    <div class="form-check pe-0">
-                      <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="agradecimento">
-                      <label class="form-check-label border-verde ps-1" for="agradecimento">
-                        Agradecimento
-                      </label>
-                    </div>
-
-                    <div class="form-check pe-0">
-                      <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="Aviso">
-                      <label class="form-check-label border-azul ps-1" for="Aviso">
-                        Aviso
-                      </label>
-                    </div>
-
+                  <div class="d-flex justify-content-center align-items-center gap-1 d-inline-flex">
+                    <button type="submit" class="btn btn-cinza corBranco">Enviar
+                      <img src="../img/Enviar.webp" alt="icone adicionar imagem">
+                    </button>
                   </div>
                 </div>
-              </div>
+
+                <div class="row mx-auto ps-5">
+                  <div class="col-5 p-0 mb-3">
+                    <textarea class="form-control bg-bd-campo-primario corCinza rounded-4 mt-1 p-3" name="mensagem" id="mensagem" rows="5" placeholder="Mensagem:"></textarea>
+                  </div>
+
+                  <div class="col-4 text-start d-flex align-items-center ms-4">
+                    <div class="row d-inline-flex gap-1 ">
+
+                      <div class="form-check pe-0">
+                        <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="atencao">
+                        <label class="form-check-label border-vermelho ps-1" for="atencao">
+                          Atenção
+                        </label>
+                      </div>
+
+                      <div class="form-check pe-0">
+                        <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="agradecimento">
+                        <label class="form-check-label border-verde ps-1" for="agradecimento">
+                          Agradecimento
+                        </label>
+                      </div>
+
+                      <div class="form-check pe-0">
+                        <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="Aviso">
+                        <label class="form-check-label border-azul ps-1" for="Aviso">
+                          Aviso
+                        </label>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
 
             <div>
@@ -243,7 +246,7 @@
 
             <div class="mt-4">
               <img src="../img/Selo4.webp" alt="Imagem Selo">
-              
+
               <p class="corBranco h4">Doador</p>
             </div>
 

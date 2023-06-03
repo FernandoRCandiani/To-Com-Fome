@@ -29,7 +29,8 @@
           <div class="col bg-white p-0 rounded-start-5">
             <div class="container">
 
-              <form action="$_GET" class="row justify-content-center">
+              <form action="" class="row justify-content-center">
+                <input type="hidden" value="cadastro">
                 <div class="col-6 align-self-center">
                   <h2 class="mt-4 mb-4">CADASTE-SE</h2>
 
@@ -52,7 +53,7 @@
                     </div>
 
                     <div class="col-4 d-grid mx-auto ps-0">
-                      <button type="button" class="btn btn-cinza mt-3 mb-3">BUSCAR</button>
+                      <button type="submit" class="btn btn-cinza mt-3 mb-3">BUSCAR</button>
                     </div>
                   </div>
 
@@ -83,7 +84,7 @@
                   <input type="password" id="inputPassword" class="form-control text-center bg-bd-campo-primario corCinza mt-3" aria-labelledby="Senha" placeholder="SENHA">
 
                   <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="button" class="btn btn-cinza mt-4 mb-4">CADASTRAR</button>
+                    <button type="submit" class="btn btn-cinza mt-4 mb-4">CADASTRAR</button>
                   </div>
 
                 </div>
@@ -97,6 +98,7 @@
             <div class="container">
 
               <form action="" class="row justify-content-center">
+              <input type="hidden" value="login">
                 <div class="col-6">
                   <h2 class="corBranco mt-5 mb-5">LOGIN</h2>
 
