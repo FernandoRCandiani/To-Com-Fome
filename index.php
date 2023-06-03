@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Com Fome | Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Com Fome | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-<header>
-        <nav class="navbar navbar-expand-lg bg-tela-secundario ">
-            <div class="container-fluid ">
-              <div class="collapse navbar-collapse navbarLinks" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="navbar-brand" href="#">
-                            <img src="img/Logo.svg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top ms-5">
-                        </a> 
-                    </li>
-                </ul>
-                <ul class="navbar-nav spaceLinks">
-                  <li class="nav-item ">
-                    <a class="nav-link text-white " aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Sobre nós</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Aplicativo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contato</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold active" href="./pages/login.php">Login</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <div class="bg-dark text-white d-flex justify-content-center pt-4">
-        <div class="img-cozinha">
-            <img src="img/tabua-vista-cima.webp" alt="Mesa de cozinha">
-            <div class="container-text">
-                <h3>Faça parte deste projeto!</h3>
-                <p>tô com fome é uma solução tecnológica que trabalha em prol da luta de combate à fome no Brasil!</p>
-                <a class="nav-link fw-bold active" href="#">Login</a>
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-tela-secundario ">
+      <div class="container-fluid ">
+        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <img src="img/Logo.svg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top ms-5">
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-between align-items-center gap-2 me-4">
+            <li class="nav-item ">
+              <a class="nav-link text-white " aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Aplicativo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold active" href="./pages/login.php">Login</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="bg-tela-primario d-flex justify-content-center">
+      <div class="img-cozinha">
+        <img src="img/img_home.png" alt="Mesa de cozinha" class="img_home p-5">
+
+        <div class="col-4 text-center container-text top-50 start-50 translate-middle">
+          <h3 class="h1 pb-3 corMarrom">Faça parte deste projeto!</h3>
+          <p class="h3 pb-3">tô com fome é uma solução tecnológica que trabalha em prol da luta de combate à fome no Brasil!</p>
+          <a class="col-6 nav-link fw-bold mx-auto btn-marrom" href="./pages/login.php">Cadastre-se!</a>
+        </div>
+      </div>
     </div>
-    
+  </main>
+
+
 </body>
+
 </html>

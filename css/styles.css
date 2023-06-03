@@ -146,6 +146,12 @@ option,
   max-width: 100%;
 }
 
+.corMarrom {
+  /* color: #873100; */
+  color: #00870b !important;
+  font-weight: bold;
+}
+
 /* CSS do nivel de XP */
 .experience__bar {
   -webkit-box-align: center;
@@ -191,24 +197,13 @@ span.current__experience {
   transform: translateX(-50%);
 }
 
-.navbarLinks {
-  display: flex;
-  justify-content: space-between;
-}
+/* HOME */
 
-.spaceLinks {
-  display: flex;
-  justify-content: space-around;
-  margin-right: 50px;
-  gap: 20px;
-  align-items: center;
-}
-
-.active {
+/* .active {
   background-color: #ffecbb;
   border-radius: 25px;
   padding: 7px 30px !important;
-}
+} */
 
 .img-cozinha {
   position: relative;
@@ -216,5 +211,11 @@ span.current__experience {
 
 .container-text {
   position: absolute;
-  z-index: 0;
+}
+
+.btn-marrom {
+  background-color: var(--branco);
+  border: 2px solid var(--branco);
+  color: var(--cinza);
+  font-weight: bold;
 }

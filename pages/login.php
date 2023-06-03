@@ -98,9 +98,9 @@
             <div class="container">
 
               <form action="" class="row justify-content-center">
-              <input type="hidden" value="login">
+                <input type="hidden" value="login">
                 <div class="col-6">
-                  <h2 class="corBranco mt-5 mb-5">LOGIN</h2>
+                  <h2 class="corBranco mt-5 mb-5 corMarrom">LOGIN</h2>
 
                   <input type="email" id="inputEmail" class="form-control text-center bg-transparent border-2 corBranco mt-5 mb-3" aria-labelledby="Email" placeholder="EMAIL">
 
