@@ -31,7 +31,7 @@
 
         <img src="../img/Olho_nav.svg" alt="Icone olho" class="ms-3 me-5" />
       </div>
-      </div>
+
     </nav>
   </header>
 
@@ -43,19 +43,19 @@
 
           <div class="m-0 btn-menu">
             <div class="bg-tela-terciario">
-              <a href="../pages/empresa.html">
+              <a href="../user/index.php">
                 <img src="../img/Menu_selecionado.webp" alt="Icone Menu" class="p-3 svg-menu-selecionado" />
               </a>
             </div>
             <div class="bg-menu-deselecionado">
-              <a href="../pages/doacao.html">
+              <a href="../pages/doacao.php">
                 <img src="../img/Doacao_deselecionado.webp" alt="Icone Doação" class="p-3" />
               </a>
             </div>
           </div>
 
           <div>
-            <p><a href="../index.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover corBranco h5 p-3">Sair</a></p>
+            <p><a href="../index.php" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover corBranco h5 p-3">Sair</a></p>
           </div>
 
         </div>
@@ -98,6 +98,51 @@
             <div class="text-start">
               <h3 class="ms-5 me-5 mb-0 fs-5 border-top p-3">Historico de doações</h3>
               <img src="../img/img-historico.png" alt="Imagem historico de doações" class="tamanho-img-historico rounded-4 ps-5">
+            </div>
+
+            <div class="text-start">
+              <div class="col-5 d-flex justify-content-between">
+                <h3 class="ms-5 me-5 mb-0 fs-5 p-3 d-inline-flex">Publique uma notícia</h3>
+
+                <div class="d-flex justify-content-center align-items-center gap-1 d-inline-flex">
+                  <button type="button" class="btn btn-cinza corBranco">Enviar
+                    <img src="../img/Enviar.webp" alt="icone adicionar imagem">
+                  </button>
+                </div>
+              </div>
+
+              <div class="row mx-auto ps-5">
+                <div class="col-5 p-0 mb-3">
+                  <textarea class="form-control bg-bd-campo-primario corCinza rounded-4 mt-1 p-3" name="mensagem" id="mensagem" rows="5" placeholder="Mensagem:"></textarea>
+                </div>
+
+                <div class="col-4 text-start d-flex align-items-center ms-4">
+                  <div class="row d-inline-flex gap-1 ">
+
+                    <div class="form-check pe-0">
+                      <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="atencao">
+                      <label class="form-check-label border-vermelho ps-1" for="atencao">
+                        Atenção
+                      </label>
+                    </div>
+
+                    <div class="form-check pe-0">
+                      <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="agradecimento">
+                      <label class="form-check-label border-verde ps-1" for="agradecimento">
+                        Agradecimento
+                      </label>
+                    </div>
+
+                    <div class="form-check pe-0">
+                      <input class="form-check-input bg-bd-campo-primario" type="radio" name="flexRadioDefault" id="Aviso">
+                      <label class="form-check-label border-azul ps-1" for="Aviso">
+                        Aviso
+                      </label>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div>
@@ -198,6 +243,7 @@
 
             <div class="mt-4">
               <img src="../img/Selo4.webp" alt="Imagem Selo">
+              
               <p class="corBranco h4">Doador</p>
             </div>
 

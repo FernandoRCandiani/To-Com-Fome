@@ -13,7 +13,7 @@
   <header>
     <nav class="navbar bg-tela-secundario">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="../index.php">
           <img src="../img/Logo.svg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top ms-5">
         </a>
       </div>
@@ -52,7 +52,7 @@
                     </div>
 
                     <div class="col-4 d-grid mx-auto ps-0">
-                      <button type="button" class="btn btn-cinza mt-3 mb-3" data-bs-toggle="button">BUSCAR</button>
+                      <button type="button" class="btn btn-cinza mt-3 mb-3">BUSCAR</button>
                     </div>
                   </div>
 
@@ -83,7 +83,7 @@
                   <input type="password" id="inputPassword" class="form-control text-center bg-bd-campo-primario corCinza mt-3" aria-labelledby="Senha" placeholder="SENHA">
 
                   <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="button" class="btn btn-cinza mt-4 mb-4" data-bs-toggle="button">CADASTRAR</button>
+                    <button type="button" class="btn btn-cinza mt-4 mb-4">CADASTRAR</button>
                   </div>
 
                 </div>
@@ -96,16 +96,16 @@
           <div class="col p-0">
             <div class="container">
 
-              <form action="$_GET" class="row justify-content-center">
+              <form action="" class="row justify-content-center">
                 <div class="col-6">
                   <h2 class="corBranco mt-5 mb-5">LOGIN</h2>
 
-                  <input type="email" id="inputEmail" class="form-control text-center bg-bd-campo-secundario corBranco mt-5 mb-3" aria-labelledby="email" placeholder="EMAIL">
+                  <input type="email" id="inputEmail" class="form-control text-center bg-transparent border-2 corBranco mt-5 mb-3" aria-labelledby="Email" placeholder="EMAIL">
 
-                  <input type="password" id="inputPassword" class="form-control text-center bg-bd-campo-secundario corBranco mt-3 mb-3" aria-labelledby="Senha" placeholder="SENHA">
+                  <input type="password" id="inputPassword" class="form-control text-center bg-transparent border-2 corBranco mt-3 mb-3" aria-labelledby="Senha" placeholder="SENHA">
 
                   <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="submit" class="btn btn-branco mt-4 mb-5" data-bs-toggle="button">ENTRAR</button>
+                    <button type="submit" class="btn btn-branco mt-4 mb-5">ENTRAR</button>
                   </div>
 
                 </div>

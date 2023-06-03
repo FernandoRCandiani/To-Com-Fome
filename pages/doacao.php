@@ -31,7 +31,6 @@
 
         <img src="../img/Olho_nav.svg" alt="Icone olho" class="ms-3 me-5" />
       </div>
-      </div>
     </nav>
   </header>
 
@@ -43,19 +42,19 @@
 
           <div class="m-0 btn-menu">
             <div class="bg-menu-deselecionado">
-              <a href="../pages/empresa.html">
+              <a href="../user/index.php">
                 <img src="../img/Menu_deselecionado.webp" alt="Icone olho" class="p-3 svg-menu-selecionado" />
               </a>
             </div>
             <div class="bg-tela-terciario">
-              <a href="../pages/doacao.html">
+              <a href="../pages/doacao.php">
                 <img src="../img/Doacao_selecionado.webp" alt="Icone olho" class="p-3" />
               </a>
             </div>
           </div>
 
           <div>
-            <p><a href="../index.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover corBranco h5 p-3">Sair</a></p>
+            <p><a href="../index.php" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover corBranco h5 p-3">Sair</a></p>
           </div>
         </div>
 
@@ -69,16 +68,6 @@
               <div class="col-6 d-grid mx-auto ps-0 mb-3 input-group-lg">
                 <label for="inputDoado" class="text-start ms-4">Digite o valor $ a ser doado</label>
                 <input type="number" id="inputDoado" class="form-control bg-bd-campo-primario corCinza rounded-5 mt-1" aria-labelledby="doado" placeholder="R$">
-              </div>
-
-              <div class="col-4 d-grid mx-auto ps-0">
-                <select class="form-select bg-bd-campo-primario corCinza rounded-5" aria-label="Selecione o tipo de Cadastro">
-                  <option selected>Forma de pagamento</option>
-                  <option value="1">PIX</option>
-                  <option value="2">CARTÃO DE CRÉDITO</option>
-                  <option value="3">CARTÃO DE DÉBITO</option>
-                  <option value="4">BOLETO</option>
-                </select>
               </div>
 
               <div class="d-grid gap-2 col-2 mx-auto">

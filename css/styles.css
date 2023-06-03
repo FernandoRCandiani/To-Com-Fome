@@ -77,11 +77,6 @@
   border: 2px solid var(--cinza);
 }
 
-.bg-bd-campo-secundario {
-  background-color: var(--cinza);
-  border: 2px solid var(--branco);
-}
-
 .btn-branco {
   background-color: var(--branco);
   border: 2px solid var(--branco);
@@ -98,9 +93,8 @@
 
 .btn-branco:hover {
   background-color: var(--cinza);
-  color: var(--branco);
   border: 2px solid var(--branco);
-  font-weight: bold;
+  color: var(--branco);
 }
 
 .btn-cinza:hover {
@@ -114,6 +108,10 @@
 .corBranco:focus {
   color: var(--branco);
   font-weight: bold;
+}
+
+input.corBranco:focus {
+  background-color: var(--cinza) !important;
 }
 
 option,
@@ -147,7 +145,6 @@ option,
   height: 330px;
   max-width: 100%;
 }
-
 
 /* CSS do nivel de XP */
 .experience__bar {
@@ -192,4 +189,32 @@ span.current__experience {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spaceLinks {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50px;
+  gap: 20px;
+  align-items: center;
+}
+
+.active {
+  background-color: #ffecbb;
+  border-radius: 25px;
+  padding: 7px 30px !important;
+}
+
+.img-cozinha {
+  position: relative;
+}
+
+.container-text {
+  position: absolute;
+  z-index: 0;
 }
