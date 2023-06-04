@@ -254,3 +254,7 @@ a.btn-marrom {
 a.btn-link {
   text-decoration: none;
 }
+
+.corBrancoSemBold {
+  color: var(--branco);
+}

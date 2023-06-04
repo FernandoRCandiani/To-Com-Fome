@@ -143,9 +143,9 @@
       <div class="col-4 mx-auto pb-5">
         <form action="">
           <div class="row">
-          
+
             <div class="col">
-              <input type="email" id="inputEmail" class="form-control text-center bg-bd-campo-primario corCinza m-0 " aria-labelledby="email" placeholder="EMAIL">
+              <input type="email" id="inputEmail" class="form-control bg-bd-campo-primario corCinza m-0 " aria-labelledby="email" placeholder="EMAIL:">
             </div>
 
             <div class="col-3 d-grid mx-auto ps-0">
@@ -159,8 +159,8 @@
     </div>
   </main>
 
-  <footer class="bg-tela-secundario p-5">
-    <img src="./img/logo_footer.svg" alt="logo tô com fome">
+  <footer class="bg-tela-secundario p-4 text-center ">
+    <p class="corBrancoSemBold">Feito por Ritter Humboldt - Copyright &copy; 2023 - Todos os direitos reservados</p>
   </footer>
 
 </body>
