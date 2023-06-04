@@ -97,7 +97,7 @@
           <div class="row">
             <div class="text-start">
               <h3 class="ms-5 me-5 mb-0 fs-5 border-top p-3">Historico de doações</h3>
-              <img src="../img/img-historico.png" alt="Imagem historico de doações" class="tamanho-img-historico rounded-4 ps-5">
+              <img src="../img/img-historico.webp" alt="Imagem historico de doações" class="tamanho-img-historico rounded-4 ps-5">
             </div>
 
             <div class="text-start">
